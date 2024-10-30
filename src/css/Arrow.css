@@ -1,0 +1,8 @@
+.arrow.back {
+    margin: 13px 0 0 -8px;
+}
+
+.arrow-container {
+    margin-left: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.form-filter {
+    margin-top: 5px;
+}
+.form-filter input[type="tel"] {
+    /*text-align: center;*/
+}
+.form-filter button {
+    background-color: #fff;
+    position: relative;
+    left: -30px !important;
+    top: 7px;
+    padding: 0 !important;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    width: 20px !important;
+    height: 30px;
+}
+
+.form-filter label {
+    margin-top: 12px;
+}
+
+@media all and (max-width: 600px) {
+    .form-filter label {
+        display:none;
+    }
+}
+@media all and (max-width: 350px) {
+    .form-filter {
+        display:none;
+    }
+}
+.filter {
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+option { display: contents; }

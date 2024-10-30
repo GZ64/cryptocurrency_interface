@@ -1,0 +1,105 @@
+.bar-bloc {
+    width: 100%;
+    z-index: 1;
+    transition: top 400ms ease-in-out 80ms;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+#bar-top {
+    background-color: #D7FFF1;
+    height: 50px;
+}
+#bar-top .row {
+    margin-bottom: 0;
+}
+#bar-bottom {
+    height: 50px;
+    width: 81%;
+    padding-left: 2.6%;
+}
+
+@media all and (max-width: 600px) {
+    #bar-bottom .row div:nth-child(4), #bar-bottom .row div:nth-child(5) {
+        display: none;
+    }
+}
+
+.border {
+    height: 100%;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.border:not(:last-child) {
+    border-right: 1px solid grey;
+}
+
+.barsearch-bloc {
+    background-color: #D7FFF1;
+    height: 50px;
+}
+
+
+.react-autosuggest__container {
+    position: relative;
+    margin-top: 4px;
+}
+
+.react-autosuggest__input {
+    width: 100%;
+    height: 30px;
+    padding: 5px 20px;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    -webkit-appearance: none;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input::-ms-clear {
+    display: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 41px;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 5px 20px;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}

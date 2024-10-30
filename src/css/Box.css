@@ -1,0 +1,49 @@
+.triangle-left, .triangle-right {
+    position: absolute;
+    width: 1px;
+    height: 0;
+    border: 35px solid transparent;
+}
+.triangle-left {
+    left: -71px;
+    transform: rotate(180deg);
+}
+
+.triangle-right{
+    right: -71px;
+}
+.box {
+    position: relative;
+    width: 90%;
+    height: 70px;
+    margin-top: 20px;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    margin-left: 6.5%;
+}
+.box .row {
+    position: absolute;
+    width: 100%;
+    margin-top: 7px;
+    height: 80%;
+}
+
+@media all and (max-width: 600px) {
+    .box .row div:nth-child(5), .box .row div:nth-child(6) {
+        display: none;
+    }
+}
+
+
+
+.logo-crypto {
+    right: 17px;
+    position: absolute;
+    bottom: -9px;
+    transform: inherit;
+}
+.truncate {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

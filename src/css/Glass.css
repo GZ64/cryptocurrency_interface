@@ -1,0 +1,8 @@
+.glass svg {
+    height: 30px;
+}
+
+.glass {
+    margin-top: 10px;
+    cursor: pointer;
+}

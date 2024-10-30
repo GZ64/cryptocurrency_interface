@@ -1,0 +1,16 @@
+.Hexagon {
+    width: 50px;
+    position: absolute;
+    left: -84px;
+    top: 3px;
+    color: black;
+}
+.rank {
+    position: absolute;
+    top: 15px;
+}
+@media all and (max-width: 770px) {
+    .Hexagon {
+        display: none;
+    }
+}

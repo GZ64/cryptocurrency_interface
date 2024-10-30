@@ -1,0 +1,6 @@
+export const GET_CRYPTO_SUCCESS = 'GET_CRYPTO_SUCCESS';
+export const GET_CRYPTO_FAILURE = 'GET_CRYPTO_FAILURE';
+export const GET_CRYPTO_STARTED = 'GET_CRYPTO_STARTED';
+export const VALUE_SEARCH = 'VALUE_SEARCH';
+export const LIMIT = 'LIMIT';
+export const CURRENCY = 'CURRENCY';
